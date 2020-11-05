@@ -1,7 +1,6 @@
 CodeBook on Getting and Cleaning Data course project
 
 The data is obtained from:
-
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -19,7 +18,6 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 Data set is available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
 
 During processing by run_analysis.R test and train sets were merged. Only mean and standard deviation measurements were extracted from original data. Data were labeled with descriptive names and columns with activity and subject for each record were included. After that measurements were grouped and averaged by activity and subject. For each record it is provided:
 ======================================
