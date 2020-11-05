@@ -48,4 +48,4 @@ tidy_data <- data_select %>%
         group_by(activity, subject) %>% 
         summarise_all(mean)
 #Save tidy data set
-write.csv(tidy_data, "Tidy_data.txt")
+write.table(tidy_data, "Tidy_data.txt", row.names = FALSE)
